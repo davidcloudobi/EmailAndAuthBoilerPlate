@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EmailAndAuthBoilerPlate</name>
+    </assembly>
+    <members>
+        <member name="T:EmailAndAuthBoilerPlate.Controllers.UserController">
+            <summary>
+            user
+            </summary>
+        </member>
+        <member name="P:EmailAndAuthBoilerPlate.Controllers.UserController.UserRepository">
+            <summary>
+            user service
+            </summary>
+        </member>
+        <member name="M:EmailAndAuthBoilerPlate.Controllers.UserController.#ctor(Domain.Interface.IUser)">
+            <summary>
+            ctor
+            </summary>
+        </member>
+        <member name="M:EmailAndAuthBoilerPlate.Controllers.UserController.Test(Domain.DTO.Request.RegisterRequest)">
+            <summary>
+            Register
+            </summary>
+            <param name="register"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmailAndAuthBoilerPlate.Controllers.UserController.Authenticate(Domain.DTO.Request.AuthenticateRequest)">
+            <summary>
+            Authenticate
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:EmailAndAuthBoilerPlate.Controllers.UserController.VerifyEmail(Domain.DTO.Request.VerifyEmailRequest)">
+            <summary>
+            Verify Email
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EmailAndAuthBoilerPlate.Helper.MigrateDatabase">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EmailAndAuthBoilerPlate.Helper.MigrateDatabase.EMigrateDatabase(Microsoft.Extensions.Hosting.IHost)">
+            <summary>
+            
+            </summary>
+            <param name="webHost"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EmailAndAuthBoilerPlate.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EmailAndAuthBoilerPlate.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:EmailAndAuthBoilerPlate.Program.CreateHostBuilder(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:EmailAndAuthBoilerPlate.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EmailAndAuthBoilerPlate.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:EmailAndAuthBoilerPlate.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:EmailAndAuthBoilerPlate.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:EmailAndAuthBoilerPlate.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>

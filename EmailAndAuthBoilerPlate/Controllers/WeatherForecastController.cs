@@ -26,6 +26,8 @@ namespace EmailAndAuthBoilerPlate.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+                int a = Convert.ToInt32("2eer");
+          
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
